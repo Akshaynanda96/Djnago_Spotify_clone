@@ -1,0 +1,28 @@
+<!-- Welcome User -->
+<div class="sidebar-section">
+    <span style="margin-left: 14px;" class="sidebar-link-icon">👤</span>
+    <b>Welcome, {{user.username | title}}</b>
+    <br>
+    <br>
+
+    <a href="{% url 'logout' %}">
+        <span class="sidebar-link-icon">↪️</span>
+        <b>Logout</b>
+    </a>
+</div>
+
+<!-- Top section of the sidebar -->
+<div class="sidebar-section">
+    <a href="/" class="sidebar-link active">
+        <span class="sidebar-link-icon">🏠</span>
+        Home
+    </a>
+   
+    <a href="#" class="sidebar-link">
+        <span class="sidebar-link-icon">🎵</span>
+        Your Library
+    </a>
+</div>
+
+
+</div>
